@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    clear: both;
+}
+
+header {
+    height: 5vh;
+    display: flex;
+    padding: 1rem 2.5rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav > ul {
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.one {
+    height: 50vh;
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+
+.text {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 180px;
+}
+
+.text p {
+    width: 59%;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.text > button {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.text > h1 {
+    font-size: 48px;
+    font-weight: 800;
+    width: 55%;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.image {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.img-container {
+    width: 80%;
+    height: 60%;
+    position: relative;
+    right: 150px;
+    top: -30px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.two > h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.two > .image {
+    height: 70%;
+    width: 80%;
+    margin: auto;
+}
+
+.card-container {
+    height: 90%;
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-container > p {
+    text-align: center;
+    width: 60%;
+}
+
+.card-img-container {
+    border: 2px solid darkblue;
+    border-radius: 15px;
+    height: 70%;
+    width: 75%;
+}
+
+#one {
+    background-image : url('https://raw.githubusercontent.com/dipps18/odin-landing-page/main/images/image1.jpeg');
+    background-size: cover;
+}
+
+#two {
+    background-image: url('https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055__340.jpg');
+}
+
+#three {
+    background-image: url('https://cdn.pixabay.com/photo/2017/02/01/22/02/mountain-landscape-2031539__480.jpg')
+}
+
+#four {
+    background-image : url('https://cdn.pixabay.com/photo/2016/10/14/19/21/canyon-1740973_960_720.jpg')
+}
+
+
+.three {
+    height: 60vh;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    height: 90%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+.quote-container > p {
+    font-size: 36px;
+}
+#quote {
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+
+}
+
+.quote-container > p + p {
+    margin-top: 0;
+    font-style: bold;
+    text-align: right;
+    position: relative;
+    left: 210px;
+}
+
+.four {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-container {
+    border-radius: 5px;
+    height: 60%;
+    width: 60%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    background-color: #3882f6;
+}
+
+#heading {
+    font-size: 25px;
+    font-style: bold;
+    margin-bottom: 0;
+}
+
+.action-text > p {
+    color: white;
+}
+
+.action-container > button {
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    background-color: #3882f6;
+    cursor: pointer;
+}
+.action-container > button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    border: 2px solid black;
+    height: 8vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1f2937;
+}
+
+
